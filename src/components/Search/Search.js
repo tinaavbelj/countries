@@ -7,7 +7,7 @@ const Search = ({ onFilter }) => {
 
     return (
         <div className="search">
-            <input className="search-input" placeholder="Search countries" onChange={ handleChange } />
+            <input className="search-input" placeholder="Search countries" onChange={handleChange} />
         </div>
     );
 };
