@@ -12,16 +12,11 @@
 .country-header {
     display: flex;
     justify-content: space-between;
-}
-
-.country-name {
     font-size: 16px;
     font-weight: 600;
 }
 
 .country-currency {
-    font-size: 16px;
-    font-weight: 600;
     display: flex;
 }
 
@@ -30,7 +25,7 @@
     color: $green;
 }
 
-.country-additional-information-element {
+.country-information {
     margin-top: 5px;
     font-size: 14px;
     border-top: 1px solid #dedede;

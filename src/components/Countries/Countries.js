@@ -13,7 +13,7 @@ const Countries = ({ countries, currencies, amountToConvert }) => {
             {countries.map(country => (
                 <div className="country" key={country.name}>
                     <div className="country-header">
-                        <div className="country-name">
+                        <div>
                             {country.name}
                         </div>
                         <div className="country-currency">
@@ -25,22 +25,20 @@ const Countries = ({ countries, currencies, amountToConvert }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="country-additional-information">
-                        <div className="country-additional-information-element">
-                            <div>
-                                Capital
-                            </div>
-                            <div>
-                                {country.capital}
-                            </div>
+                    <div className="country-information">
+                        <div>
+                            Capital
                         </div>
-                        <div className="country-additional-information-element">
-                            <div>
-                                Population
-                            </div>
-                            <div>
-                                {country.population.toLocaleString()}
-                            </div>
+                        <div>
+                            {country.capital}
+                        </div>
+                    </div>
+                    <div className="country-information">
+                        <div>
+                            Population
+                        </div>
+                        <div>
+                            {country.population.toLocaleString()}
                         </div>
                     </div>
                 </div>
