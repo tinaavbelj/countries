@@ -1,0 +1,41 @@
+@import '../../variables.scss';
+
+.country {
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: $grey-light;
+    box-shadow: 0 0 10px $grey-shadow;
+    border-radius: 10px;
+    color: $blue-dark;
+}
+
+.country-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.country-name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.country-currency {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+}
+
+.country-currency-name {
+    margin-right: 5px;
+    color: $green;
+}
+
+.country-additional-information-element {
+    margin-top: 5px;
+    font-size: 14px;
+    border-top: 1px solid #dedede;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

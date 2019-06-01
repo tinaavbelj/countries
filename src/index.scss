@@ -1,0 +1,47 @@
+@import './variables.scss';
+
+* {
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 40px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px $grey-shadow;
+    color: $blue-dark;
+    background-color: $green;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.5s box-shadow;
+}
+
+button:hover {
+    box-shadow: 0 0 10px $green;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: $grey-light;
+    color: $blue-dark;
+    box-shadow: 0 0 10px $grey-shadow;
+    height: 40px;
+    padding: 10px 20px;
+    transition: 0.5s box-shadow;
+}
+
+input:focus {
+    box-shadow: 0 0 10px $green;
+}
